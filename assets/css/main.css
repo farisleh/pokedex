@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+@layer utilities {
+    .bg {
+      @apply bg-amber-200;
+    }
+
+    .bg-card {
+      @apply bg-white;
+    }
+
+    .bg-stats {
+      @apply bg-slate-100;
+    }
+
+    .bt-primary {
+      @apply bg-amber-400;
+    }
+
+    .bt-primary-hover {
+      @apply hover:bg-amber-600;
+    }
+
+    .heart-fill {
+      @apply text-red-500;
+    }
+
+    .heart-none {
+      @apply text-slate-100;
+    }
+
+    .text {
+      @apply text-slate-900;
+    }
+
+    .text-secondary {
+      @apply text-slate-400;
+    }
+
+    .text-size-title-xl {
+      @apply text-[30px];
+    }
+
+    .text-size-title {
+      @apply text-[18px];
+    }
+
+    .text-size-table {
+      @apply text-[12px];
+    }
+
+}
+  
