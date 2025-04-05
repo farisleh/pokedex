@@ -15,7 +15,7 @@
         <!-- Pokedex Card List -->
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             <div v-for="pokemon in filteredPokemons" :key="pokemon.id"
-                class="bg-card shadow-lg rounded-xl p-4 flex flex-col items-center relative"
+                class="bg-card hover:bg-slate-400 shadow-lg rounded-xl p-4 flex flex-col items-center relative"
                 @click="openDialog(pokemon)">
 
                 <button @click.stop="toggleFavorite(pokemon.id)" class="absolute top-3 right-3 w-6 h-6">
